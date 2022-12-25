@@ -54,11 +54,6 @@ export const Albums = () => {
         }
     });
 
-      
-      
-    
-    
-
     return (
         <div>
             <Header />

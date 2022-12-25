@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
 import { HomePage } from "./pages/HomePage/HomePage";
@@ -8,7 +9,11 @@ import { Artists } from './pages/Artists/Artists';
 import { Albums } from './pages/Albums/Albums';
 
 
+
 const App = () => {
+
+
+
   return (
     <div className="App">
       <Container>
